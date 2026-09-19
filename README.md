@@ -17,10 +17,18 @@ and the coherence structure of criticality in the lattice Schwinger model at
 θ = π* — SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7359319 ·
 code: https://github.com/mustafa-boudjerada/erasability-floor-schwinger
 
+## Numerical validation
+
+The complete record of the executed validation tests -- with parameters,
+system sizes, and error floors, for both the model-independent battery and
+the Schwinger instance -- is in [`VALIDATION.md`](VALIDATION.md). All of its
+tables regenerate with `python run_all.py`.
+
 ## What is here
 
 | Path | Contents |
 |------|----------|
+| `VALIDATION.md` | The executed numerical-validation record: full tables with parameters, sizes, and errors. |
 | `theorems/rigidity_general.py` | Model-independent verification of the rigidity theorem (Table 1): random states, transverse-field Ising, Heisenberg, reflection (bipartition swap), and thermal (mixed) states, with the falsifiers. Reports the entropy derivative ∂S (the universally protected quantity) and the population Fisher F_cl. Self-contained (numpy/scipy). |
 | `lattice/model.py` | The θ=π staggered Schwinger rotor Hamiltonian (matrix-free `Op`; NumPy/CuPy). J = 1/4, α = 1/2, w = 1 by construction. |
 | `lattice/analyze.py` | Per-charge-block Schmidt decomposition of the reduced state into population (F_cl) and coherence (F_coh) Fisher information (raises on exact degeneracy). |
