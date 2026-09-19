@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated paper."
+title: "Rigidity of entanglement spectra under symmetry-odd perturbations, and the origin of the small information floor in the lattice Schwinger model at theta = pi"
+authors:
+  - family-names: Boudjerada
+    given-names: Mustafa
+date-released: 2026-09-19
+license: CC-BY-4.0
+url: "https://github.com/mustafa-boudjerada/entanglement-spectrum-rigidity"
+keywords:
+  - entanglement spectrum
+  - quantum Fisher information
+  - reduced density matrix
+  - symmetry
+  - lattice Schwinger model

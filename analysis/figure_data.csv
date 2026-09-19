@@ -1,0 +1,6 @@
+case,abs_dS_de,class
+"Ising, $\prod Z$, $\sum X$",4.580e-11,rigid
+"Heisenberg, staggered $Z$",5.551e-12,rigid
+"Ising, reflection",1.527e-11,rigid
+"Ising, $X_1X_2$ (even)",1.923e-03,falsifier
+"reflection, off-cut region",1.500e-01,falsifier
