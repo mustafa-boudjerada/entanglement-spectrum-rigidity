@@ -24,6 +24,15 @@ system sizes, and error floors, for both the model-independent battery and
 the Schwinger instance -- is in [`VALIDATION.md`](VALIDATION.md). All of its
 tables regenerate with `python run_all.py`.
 
+## Extended validation (stress tests)
+
+Beyond the paper's own validation, [`stress_tests/`](stress_tests/) contains a
+post-publication adversarial battery (~60 exact-diagonalisation tests across
+models, sizes, cuts, drives, mixed states, degeneracies, and both mechanisms'
+falsifiers), with its audit trail, in
+[`stress_tests/STRESS_TESTS.md`](stress_tests/STRESS_TESTS.md). All scripts are
+self-contained and run in minutes.
+
 ## What is here
 
 | Path | Contents |
